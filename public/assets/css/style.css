@@ -346,6 +346,56 @@ ul li.price{
     font-size: 1.1rem;
 }
 
+.form{
+    background-color: hsl(198, 60%, 50%);
+    padding: 60px 0;
+}
+
+.form__container{
+    background-color: var(--blue-testimonials);
+    padding: 3.5em 1.5em;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.form__title{
+    font-family: var(--heading-font);
+    margin-bottom: 1em;
+}
+
+.form__paragraph{
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+.form__section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.form__input, textarea{
+    font: inherit;
+    padding: 1em 1.4em;
+    border-radius: 30px;
+    border: none;
+    width: 80%;
+    align-self: center;
+    outline: none;
+    resize: none;
+}
+
+.form__input--submit{
+    background-image: var(--gradient);
+    color: #fff;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    width: 200px;
+    align-self: flex-start;
+    margin-left: 30px;
+}
+
 .footer{
     color: #000;
     background-color: #f4f4f4;
