@@ -38,7 +38,7 @@ body{
     background-color:hsl(198, 60%, 50%);
     position: relative;
     color: #fff;
-    background-image: url(/public/assets/img/gestion.png);
+    background-image: url(/public/assets/images/gestion.png);
     background-size: cover;
     background-position: center;
     overflow: hidden;
