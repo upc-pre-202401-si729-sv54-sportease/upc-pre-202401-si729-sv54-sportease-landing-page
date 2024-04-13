@@ -200,3 +200,86 @@ body{
     text-decoration: none;
     border-radius: 30px;
 }
+
+@media (min-width:768px) {
+
+    *{
+        scroll-behavior: smooth;
+    }
+
+    .nav__link{
+        display: block;
+    }
+
+    .nav__cta{
+        display: block;
+    }
+
+    .nav__ham{
+        display: none;
+    }
+
+    .nav__hamburger.active{
+        display: none;
+    }
+
+    .hero__title{
+        font-size: 3rem;
+    }
+
+    .hero__main{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 3em 4em;
+    }
+   
+
+    .join__container{
+        max-width: 800px;
+    }
+
+    .join__form{
+        padding-top: 1em;
+        grid-template-columns: 1fr max-content;
+    }
+
+    .form__input--submit{
+        margin-left: 7rem;
+    }
+
+    .footer__content{
+        display: grid;
+        grid-auto-flow: column;
+        gap: 2em;
+        color: #000;
+    }
+
+    .footer__contact{
+        max-width: 200px;
+    }
+
+    .footer__nav{
+        margin-top: 0;
+    }
+
+    .footer__social{
+        margin: 0;
+    }
+
+    .footer__direction--first{
+        max-width: 300px;
+    }
+
+    .footer__direction--second{
+        margin: 0 0 1em;
+    }
+
+}
