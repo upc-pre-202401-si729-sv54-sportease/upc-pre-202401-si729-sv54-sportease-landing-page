@@ -26,6 +26,18 @@ body{
 
 /* Header */
 
+.about-the-product, .about-the-team{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5rem;
+}
+
+.title-about-the-product{
+    margin: 1rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
 .container{
     width: 90%;
     max-width: 1200px;
